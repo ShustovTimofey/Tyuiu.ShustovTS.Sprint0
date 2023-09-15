@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Tyuiu.ShustovTS.Sprint0.Task2.V0.Lib
 {
-    public class Class1
+    public class DataService
     {
+        public static string GetMessage(string name)
+        {
+            return $"Привет..., {name}";
+        }
     }
-}
