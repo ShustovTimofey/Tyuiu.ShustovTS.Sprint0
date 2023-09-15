@@ -12,6 +12,7 @@ namespace Tyuiu.ShustovTS.Sprint0.Task2.V0.Test
             var res = DataService.GetMessage(name);
 
             Assert.AreEqual("Привет..., Тим", res);
+
         }
     }
 }

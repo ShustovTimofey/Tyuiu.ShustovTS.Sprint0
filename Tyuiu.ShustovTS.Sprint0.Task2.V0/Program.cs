@@ -12,3 +12,4 @@ namespace Tyuiu.ShustovTS.Sprint0.Task2.V0
         {
             Console.WriteLine(DataService.GetMessage("Тимофей"));
             Console.ReadKey();
+
